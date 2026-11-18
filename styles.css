@@ -12,16 +12,16 @@
 .project-image_ball {
     position: absolute;
     inset: 0;
-    width: 50%;
-    height: 50%;
+    width: 20%;
+    height: 20%;
     object-fit: cover;
     display: block;
 }
 .project-image_prueba {
     position: absolute;
     inset: 0;
-    width: 50%;
-    height: 50%;
+    width: 20%;
+    height: 20%;
     object-fit: cover;
     display: block;
 }
