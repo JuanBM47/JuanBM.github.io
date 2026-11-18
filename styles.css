@@ -9,3 +9,19 @@
     object-fit: cover;
     display: block;
 }
+.project-image_ball {
+    position: absolute;
+    inset: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+}
+.project-image_prueba {
+    position: absolute;
+    inset: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+}
