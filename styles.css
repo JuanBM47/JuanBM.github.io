@@ -9,19 +9,35 @@
     object-fit: cover;
     display: block;
 }
-.project-image_ball {
+
+/* IMÁGENES DE LOS PROYECTOS */
+
+.project-visual,
+.placeholder-visual {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-image {
     position: absolute;
     inset: 0;
-    width: 10%;
-    height: 10%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    object-position: center;
     display: block;
+    z-index: 1;
 }
-.project-image_prueba {
+
+.project-visual .visual-caption,
+.placeholder-visual .visual-caption {
     position: absolute;
-    inset: 0;
-    width: 10%;
-    height: 10%;
-    object-fit: cover;
-    display: block;
+    z-index: 2;
+    bottom: 18px;
+    left: 22px;
+    color: white;
+    font: 9px var(--mono);
+    letter-spacing: 2px;
+    text-shadow: 0 1px 8px #000;
 }
+
